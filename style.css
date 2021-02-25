@@ -1,0 +1,119 @@
+body {
+  font-family: Arial;
+  background: #f2e03f;
+  color: gray;
+  text-align: center;
+  box-sizing: border-box;}
+main{
+  max-width:1280px;
+  margin:auto;
+  
+/*   background-color:#fff; */
+}
+
+.button{
+  display: inline-block;
+  padding: 5px 25px;
+  font-family: STHeiti;
+  color: gray; 
+  border-bottom: solid 3px #616161;
+  margin:0px 10px;
+  letter-spacing: 2px;}
+
+.block{
+  color: white;
+  font-size: 20px;
+  width: 400px;
+  height: 300px;
+  background-color: gray;
+  margin: auto;
+  display:inline-block;
+  background-size:cover;
+  background-position:center;
+  
+}
+
+.img1{
+  background-image:url("https://4.bp.blogspot.com/-3XzArR4uKL0/XIM5F05K04I/AAAAAAAAo9M/kikzUwERrgIltmYKkhEQvTu_XBnBzuODQCLcBGAs/s1600/mookio%2BRICOH%2BGR%2BIII.jpg")}
+.img2{
+  background-image:url(https://miro.medium.com/max/1000/1*CunU8dl-e0OFkg2ZIemf9A.jpeg)}
+
+.text1{
+  display:inline-block;
+  border: solid 1px #616161;
+/*   margin: 5px; */
+/*   padding: 10px; */
+  width: 400px;
+  height: 100px;
+  position:static;
+}
+.text2{
+  display:inline-block;
+  border: solid 1px #616161;
+/*   margin: 5px; */
+/*   padding: 10px; */
+  width: 400px;
+  height: 100px;
+  position:static;
+}
+.ad{
+  position:fixed;
+  
+}
+.adchild{
+  border:solid 1px white;
+  width: 150px;
+  height: 150px;
+  margin-bottom: 5px;
+  background-size:cover;
+  background-position:center;
+  position: relative;
+}
+
+.icon1{
+  background-image:url(https://is2-ssl.mzstatic.com/image/thumb/Purple124/v4/c1/7e/0c/c17e0c26-e337-223e-0864-76ffc8719880/source/100x100bb.jpg)
+}
+.icon2{
+  background-image:url(https://is5-ssl.mzstatic.com/image/thumb/Purple124/v4/bc/5b/8b/bc5b8b74-03d3-a4f2-9f05-aa57cd736cc5/source/100x100bb.jpg)
+}
+.icon3{
+  background-image:url(https://is3-ssl.mzstatic.com/image/thumb/Purple124/v4/78/8c/e2/788ce272-c038-1281-c444-83e8153eaa9f/source/100x100bb.jpg)
+}
+.icon4{
+  background-image:url(https://is3-ssl.mzstatic.com/image/thumb/Purple124/v4/14/66/cf/1466cf01-ffbf-b397-3380-8aa32c679ab6/source/100x100bb.jpg)
+}
+.info{
+/*   display: none; */
+  opacity: 0;
+  position: absolute;
+  box-sizing: border-box;
+  background-color: rgba(0,0,0,.3);
+  top: 0;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  padding-top: center;
+}
+.info a{
+  color: #fff;
+  margin: auto;
+  
+}
+.info:hover{
+  -webkit-transition: 300ms;
+  opacity: 1;
+}
+
+  .btn-link{
+    border: none;
+    font-size: 24px;;
+    width: 150px;
+    height: 150px;
+    color:#fff;
+    opacity: 0.6;
+    font-family:Arial, Helvetica, sans-serif ;
+    font-weight: 800;
+    display: block;
+    line-height:150px;
+    text-decoration: none;
+  }
